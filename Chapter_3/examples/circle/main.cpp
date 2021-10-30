@@ -3,12 +3,13 @@
 using namespace std;
 
 double circle(double);
+double circle(double, double);
+
 int main()
 {
   extern double pi;
-  pi = 3.14159;
 
-  double x = 4;
-  cout << circle(x) << " is area of circle of radius "
+  double x = 8;
+  cout << circle(x, pi) << " is area of circle of radius "
        << x << endl;
 }
